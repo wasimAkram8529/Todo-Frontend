@@ -26,8 +26,8 @@ jobs:
           node-version: 22
       
       - name: Install dependency
-        run: npm ci
-        
+        run: npm i
+
       - name: build project
         run: npm run build
 
